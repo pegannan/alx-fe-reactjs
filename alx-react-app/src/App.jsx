@@ -1,3 +1,4 @@
+import UserProfile from './UserProfile'
 import Header from './Header'
 import MainContent from './MainContent'
 import Footer from './Footer'
@@ -34,6 +35,7 @@ function App() {
       </p>
       <WelcomeMessage />
       <Header /> <MainContent /> <Footer />
+      <UserProfile name="Benjamin" age="18" bio="Good with words" />
     </>
   )
 }
