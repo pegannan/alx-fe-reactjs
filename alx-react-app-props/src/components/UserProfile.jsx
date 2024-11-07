@@ -10,6 +10,7 @@ function UserProfile (){
           <p>Bio: <span style={{color: 'green'}}>{props.bio}</span></p>
           </div>
         );
+        ["useContext", "UserContext", "react"]
       };
     return 
   
