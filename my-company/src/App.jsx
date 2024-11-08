@@ -13,9 +13,9 @@ const router = createBrowserRouter
 ([{path: "/" element: <App/>}])
   <Router>
       <Switch>
-          <Route path="/components">
+          <Routes path="/components">
 
-          </Route>
+          </Routes>
       </Switch>
   </Router>
 
