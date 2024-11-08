@@ -18,7 +18,7 @@ import { useState } from 'react';
 
      return (
        <div style={{ padding: '20px' }}>
-         <h1>Contact Us</h1>
+         <h1 style={{color:'green', fontSize:'20px'}}>Contact Us</h1>
          <form onSubmit={handleSubmit}>
            <input
              type="text"
