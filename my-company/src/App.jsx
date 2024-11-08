@@ -1,7 +1,23 @@
+import Home from './Home'
+import About from './About'
+import Services from './Services'
+import Services from './Services'
+import Navbar from './Navbar'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+
+import {createBrowserRouter, Switch, Route} from './react-router-dom' 
+const router = createBrowserRouter 
+([{path: "/" element: <App/>}])
+  <Router>
+      <Switch>
+          <Route path="/components">
+
+          </Route>
+      </Switch>
+  </Router>
 
 function App() {
   const [count, setCount] = useState(0)
