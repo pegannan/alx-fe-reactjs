@@ -5,6 +5,17 @@ import './App.css'
 import RecipeList from './RecipeList.jsx'
 import AddRecipeForm from './AppRecipeForm.jsx'
 
+import {createBrowserRouter, Switch, Route} from './react-router-dom' 
+const router = createBrowserRouter 
+([{path: "/" element: <App/>}])
+  <Router>
+      <Switch>
+          <Routes path="/components">
+
+          </Routes>
+      </Switch>
+  </Router>
+
 function App() {
   const [count, setCount] = useState(0)
 
