@@ -16,4 +16,6 @@
    );
  };
 
+ import filteredRecipe from .recipeStore.jsx
+
  export default RecipeList;
