@@ -16,7 +16,7 @@
    );
  };
 
- import filteredRecipe from './recipeStore.jsx'
+ import filteredRecipe from './recipeStore.jsx';
  return (
   Link from './react-router-dom' to (Home.jsx, About.jsx, Services.jsx, Contact.jsx))
  export default RecipeList;
