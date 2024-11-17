@@ -10,7 +10,7 @@ const router = createBrowserRouter
 ([{path: "/" element: <App/>}])
   <Router>
       <Switch>
-          <Routes path="/components">
+          <Routes path="/components/Recipedetail">
 
           </Routes>
       </Switch>
