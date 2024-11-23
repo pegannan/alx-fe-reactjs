@@ -16,7 +16,7 @@ const RegistrationForm = () => {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        value={title}
+        value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Email"
       />
