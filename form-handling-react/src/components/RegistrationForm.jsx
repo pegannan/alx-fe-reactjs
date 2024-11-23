@@ -7,7 +7,7 @@ const RegistrationForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setEmail({''});
+    setEmail('');
     setPassword('');
     setUsername('');
   };
