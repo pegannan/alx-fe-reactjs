@@ -12,13 +12,13 @@ const RegistrationForm = () => {
     setUsername('');
 
     if (!username) {
-        setError
+        setErrors
     }
     if (!password) {
-        setError
+        setErrors
     }
     if (!email) {
-        setError
+        setErrors
     }
 
   };
