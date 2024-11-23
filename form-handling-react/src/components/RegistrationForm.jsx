@@ -44,3 +44,5 @@ const RegistrationForm = () => {
     </form>
   );
 };
+
+export default RegistrationForm;
