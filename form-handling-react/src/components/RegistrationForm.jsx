@@ -10,6 +10,17 @@ const RegistrationForm = () => {
     setEmail('');
     setPassword('');
     setUsername('');
+
+    if (!username) {
+        setError
+    }
+    if (!password) {
+        setError
+    }
+    if (!email) {
+        setError
+    }
+
   };
 
   return (
