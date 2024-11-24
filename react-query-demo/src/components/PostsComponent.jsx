@@ -14,6 +14,7 @@ const ReactQuery= () => {
     const { data, error, isLoading } = useQuery('refetchOnWindowFocus', refetchOnWindowFocus);
     const { data, error, isLoading } = useQuery('keepPreviousData', keepPreviousData);
 
+    ccnst cacheTime{};
 
     // Handle loading state
     if (isLoading) return <div>Loading...</div>;
