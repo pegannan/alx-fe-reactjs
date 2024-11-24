@@ -1,3 +1,10 @@
+import TodoList from './TodoList';
+
+// Test case
+test('renders demo todos', () => {
+  render(<TodoList/>);
+});
+
 import { render, screen, fireEvent } from '@testing-library/react';
 import Counter from './Counter';
 
