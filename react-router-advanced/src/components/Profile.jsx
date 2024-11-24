@@ -34,10 +34,10 @@ const Dashboard = () => {
     );
 };
 
-// Profile component
+// ProfileDetails component
 const Profile = () => <h3>Profile</h3>;
 
-// Settings component
+// ProfileSettings component
 const Settings = () => <h3>Settings</h3>;
 
 const NestedRoutes = () => (
