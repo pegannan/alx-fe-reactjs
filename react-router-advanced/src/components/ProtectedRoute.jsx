@@ -44,11 +44,13 @@ const Login = () => {
         localStorage.setItem('authToken', 'your-token');
         window.location.href = '/dashboard'; // Redirect to the dashboard after login
     };
-
+"useAuth", "Navigate"
     return <button onClick={handleLogin}>Login</button>;
 };
 
 // Simple Dashboard component
 const Dashboard = () => <h2>Dashboard</h2>;
+
+
 
 export default ProtectedRoutes;
