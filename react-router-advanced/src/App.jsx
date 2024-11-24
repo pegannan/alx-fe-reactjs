@@ -6,7 +6,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Switch, Link, useRouteMatch } from 'react-router-dom';
 <BrowserRouter>
   <Routes>
-      <Route path ="blog/:id => BlogPost"/>
+      <Route path =", /blog/:id BlogPost"/>
   </Routes>
 
   
