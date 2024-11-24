@@ -14,7 +14,7 @@ const ReactQuery= () => {
     if (isLoading) return <div>Loading...</div>;
     // Handle error state
     if (error) return <div>Error loading data</div>;
-    if (isError) {fetchposts}
+    if (isError) {fetchPosts}
 
     // Render the fetched data
     return (
