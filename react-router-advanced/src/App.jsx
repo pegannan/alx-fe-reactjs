@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Dashboard from './profile'
+import ProtectedRoute from './components/ProtectedRoute'
 
 import { BrowserRouter as Router, Routes, Switch, Link, useRouteMatch } from 'react-router-dom';
 <BrowserRouter>
