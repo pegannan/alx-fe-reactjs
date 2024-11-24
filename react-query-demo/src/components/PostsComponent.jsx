@@ -9,6 +9,11 @@ const fetchData = async () => {
 const ReactQuery= () => {
     // Use the useQuery hook to handle data fetching and caching
     const { data, error, isLoading } = useQuery('fetchData', fetchData);
+    const { data, error, isLoading } = useQuery('catchTime', catchTime);
+    const { data, error, isLoading } = useQuery('staleTime', staleTime);
+    const { data, error, isLoading } = useQuery('refetchOnWindowFocus', refetchOnWindowFocus);
+    const { data, error, isLoading } = useQuery('keepPreviousData', keepPreviousData);
+
 
     // Handle loading state
     if (isLoading) return <div>Loading...</div>;
