@@ -1,5 +1,5 @@
 
-const todoList = () => {
+const TodoList = () => {
     const favorites = useRecipeStore(state => state.favorites.map(id =>
       state.recipes.find(recipe => recipe.id === id)
     ));
@@ -17,4 +17,4 @@ const todoList = () => {
     );
   };
   
-  export default todoList;
+  export default TodoList;
