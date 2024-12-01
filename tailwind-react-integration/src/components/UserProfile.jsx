@@ -10,7 +10,7 @@ function UserProfile() {
   
   user-profile{
     @apply bg-gray-100, p-8, max-w-sm, mx-auto, my-20, rounded-lg, shadow-lg, sm:p-4, md:p-8
-    sm:max-w-xs. md:
+    sm:max-w-xs md:max-w-sm;
   }
 
   h1{
@@ -18,7 +18,7 @@ function UserProfile() {
   }
 
   img{
-    @apply rounded-full, w-36 h-36, mx-auto sm:w-24 h-24 md:w-36 h-36;
+    @apply rounded-full, w-36 h-36, mx-auto sm:w-24 sm:h-24 md:w-36 md:h-36;
   }
 
   p{
