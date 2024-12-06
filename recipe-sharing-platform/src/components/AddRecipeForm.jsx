@@ -36,5 +36,7 @@ import {useState} rom 'react'
 "steps"
 
 "validate", "errors", "setErrors", "preventDefault"
+
+"className", "font-"
   
   export default UserProfile;
