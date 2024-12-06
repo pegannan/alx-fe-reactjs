@@ -30,4 +30,9 @@ user-profile{
   p{
     @apply text-gray-600, text-base sm:text-sm, md:text-base hover:text-blue-500;
   }
+
+import {useState} rom 'react'
+
+"steps"
+  
   export default UserProfile;
