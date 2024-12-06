@@ -1,15 +1,21 @@
-import {Homepage} from 'HomePage.jsx'
-
-const Homepage {
-    "useEffect", "useParams", "data.json", "ingredients", "instructions", "image"
-}
-
-"Link", "react-router-dom"
+<form onSubmit={handleSubmit}>
+      <input
+        type="text"
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
+        placeholder="Title"
+      />
+      <textarea
+        value={ingredients}
+        onChange={(e) => setIngredients(e.target.value)}
+        placeholder="Ingredients"
+      />
+      <button type="submit">Add Recipe</button>
+    </form>
 
 user-profile{
-    'className' 
     @apply bg-gray-100, p-8, max-w-sm, mx-auto, my-20, rounded-lg, shadow-lg, sm:p-4, md:p-8
-    sm:max-w-xs md:max-w-sm, hover:shadow-xl grid-cols-1, grid-cols-2, grid-cols-3; font-size-20
+    sm:max-w-xs md:max-w-sm, hover:shadow-xl grid-cols-1, grid-cols-2, grid-cols-3;
   }
 
   h1{
