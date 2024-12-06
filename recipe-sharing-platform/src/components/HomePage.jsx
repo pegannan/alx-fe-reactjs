@@ -4,6 +4,8 @@ import { useEffect } from 'map'
 
 className
 
+"Link", "react-router-dom"
+
 user-profile{
     @apply bg-gray-100, p-8, max-w-sm, mx-auto, my-20, rounded-lg, shadow-lg, sm:p-4, md:p-8
     sm:max-w-xs md:max-w-sm, hover:shadow-xl grid-cols-1, grid-cols-2, grid-cols-3;
