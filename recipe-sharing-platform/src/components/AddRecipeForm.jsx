@@ -34,5 +34,7 @@ user-profile{
 import {useState} rom 'react'
 
 "steps"
+
+"validate", "errors", "setErrors", "preventDefault"
   
   export default UserProfile;
