@@ -44,6 +44,17 @@ const fetchUserData = () => {
           onChange={(e) => setUsername(e.target.value)}
           placeholder="Name"
         />
+        <textarea
+          value={location}
+          onChange={(e) => setLink(e.target.value)}
+          placeholder="Location"
+          />
+          <textarea
+          value={repositoties}
+          onChange={(e) => setLink(e.target.value)}
+          placeholder="minimum repositories"
+          />
+       
       </form>
       avatar_url", "login", "img";
     );
@@ -51,5 +62,8 @@ const fetchUserData = () => {
     };
   
   
-    
+    form{
+        @apply bg-gray-100, p-8, max-w-sm, mx-auto, my-20, rounded-lg, shadow-lg, sm:p-4, md:p-8
+        sm:max-w-xs md:max-w-sm, hover:shadow-xl;
+      }
   export default RegistrationForm;
