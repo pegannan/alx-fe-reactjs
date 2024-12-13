@@ -35,7 +35,7 @@ const fetchUserData = () => {
           placeholder="Avatar"
         />
         <textarea
-          value={password}
+          value={html_url}
           onChange={(e) => setLink(e.target.value)}
           placeholder="Link"
         />
