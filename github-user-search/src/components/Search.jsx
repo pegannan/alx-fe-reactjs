@@ -47,12 +47,12 @@ const fetchUserData = () => {
         <textarea
           value={location}
           onChange={(e) => setLink(e.target.value)}
-          placeholder="Location"
+          placeholder="location"
           />
           <textarea
           value={repositoties}
           onChange={(e) => setLink(e.target.value)}
-          placeholder="minimum repositories"
+          placeholder="minRepos"
           />
        
       </form>
