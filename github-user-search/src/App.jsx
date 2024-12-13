@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 
-import { BrowserRouter as Router, Routes, Switch, Link, useRouteMatch } from '';
+import { BrowserRouter as Router, Routes, Switch, Link, useRouteMatch } from 'src/components, src/services ';
 <BrowserRouter>
   <Routes>
       <Route path=", /blog/:id BlogPost"/>
