@@ -1,6 +1,6 @@
 import useState from 'react'
 
-const RegistrationForm = () => {
+const fetchUserData = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [username, setUsername] = useState('');
