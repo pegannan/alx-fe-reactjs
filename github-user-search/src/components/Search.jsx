@@ -45,6 +45,7 @@ const RegistrationForm = () => {
           placeholder="Name"
         />
       </form>
+      avatar_url", "login", "img";
     );
   
     };
