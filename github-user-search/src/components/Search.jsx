@@ -22,27 +22,33 @@ const RegistrationForm = () => {
       }
   
     };
-  
+  button 
+
+  'Loading...'
+  'Looks like we cant find the user, '
     return (
       <form onSubmit={handleSubmit}>
         <input
           type="text"
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Email"
+          onChange={(e) => setAvatar(e.target.value)}
+          placeholder="Avatar"
         />
         <textarea
           value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          placeholder="Password"
+          onChange={(e) => setLink(e.target.value)}
+          placeholder="Link"
         />
          <textarea
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          placeholder="Username"
+          placeholder="Name"
         />
       </form>
     );
-  };
   
+    };
+  
+  
+    
   export default RegistrationForm;
